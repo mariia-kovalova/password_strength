@@ -1,0 +1,30 @@
+ul {
+    display: flex;
+    gap: 4px;
+
+    width: 200px;
+}
+
+li {
+    flex-basis: calc((100% - (4px * 2)) / 3);
+
+    height: 6px;
+
+    border-radius: 2px;
+}
+
+.gray {
+    background-color: #a7aeb0;
+}
+
+.red {
+    background-color: #f24441;
+}
+
+.yellow {
+    background-color: #e8ed53;
+}
+
+.green {
+    background-color: #41d9a9;
+}
